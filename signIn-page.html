@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/x-icon" href="https://vectorified.com/images/netflix-icon-png-12.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sign-in-page-container {
+        background-image: url(Background2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sign-in-page-button-container-content {
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.6);
+
+    }
+
+    .nav-left-logo {
+        margin: 2% auto 3% 5%;
+    }
+
+    .sign-in-page-form {
+        background-color: rgba(0, 0, 0, .75);
+        border-radius: 4px;
+    }
+
+    .sign-in-page-form {
+        width: 30%;
+        margin: auto;
+        padding: 20px 29px;
+        color: white;
+        margin-bottom: 90px;
+        height: 380px;
+        padding: 60px 68px 40px;
+    }
+
+    .heading {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .sign-in-page-email {
+        background: #333;
+        width: 75%;
+        border: none;
+        outline: none;
+        padding: 16px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .sign-in-page-password {
+        background: #333;
+        width: 75%;
+        border: none;
+        outline: none;
+        padding: 16px;
+        font-size: 16px;
+        color: white;
+        margin-top: 9px;
+    }
+
+    .sign-in-page-input {
+        text-align: center;
+    }
+
+    .sign-in-page-button-container {
+        margin: auto;
+        text-align: center;
+    }
+
+    .sign-in-page-button {
+        width: 75%;
+        background: #e50914;
+        width: 81%;
+        border: none;
+        outline: none;
+        padding: 16px;
+        font-size: 16px;
+        color: white;
+        margin-top: 35px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+
+    .footer-container {
+        background-color: rgba(0, 0, 0, .75);
+    }
+
+    .footer {
+        margin: 0px auto;
+        padding: 34px 0;
+        padding-bottom: 60px;
+    }
+
+    /* media */
+    @media screen and (max-width:750px) {
+
+
+        .sign-in-page-container {
+            background: bottom;
+        }
+
+        .sign-in-page-form {
+
+            width: 100%;
+        }
+
+        .sign-in-page-button {
+
+            width: 79%;
+        }
+
+        .heading {
+            margin-left: 11%;
+            margin-top: 24px;
+        }
+
+        .sign-in-page-form {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+
+    }
+</style>
+
+<body>
+    <div class="sign-in-page-container">
+        <div class="sign-in-page-button-container-content">
+
+
+            <img src="logo.png" class="nav-left-logo">
+            <div class="sign-in-page-form">
+                <div class="sign-form-content">
+                    <h1 class="heading">
+                        Sign In
+                    </h1>
+                    <form>
+                        <div class="sign-in-page-input">
+                            <input type="text" placeholder="Email or Phone number" class="sign-in-page-email">
+
+                        </div>
+                        <div class="sign-in-page-input">
+                            <input type="text" placeholder="Password" class="sign-in-page-password">
+
+                        </div>
+                        <div class="sign-in-page-button-container">
+                            <button class="sign-in-page-button">
+                                Sign In
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="footer">
+
+
+                    <p class="footer-p">
+                        Questions? Call
+                        <span class="underline-text">
+                            000-800-919-1694
+                        </span>
+                    </p>
+                    <div class="footer-tags">
+                        <ul>
+                            <li>
+                                <span>
+                                    FAQ
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Help Center
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Account
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Media Center
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Investor Relations
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Jobs
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Ways to Watch
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Terms of Use
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Privacy
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Cookies Preferences
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Corporate Information
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Contact Us
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>Speed Test</span>
+                            </li>
+                            <li>
+                                <span>
+                                    Local Notices
+                                </span>
+
+                            </li>
+                            <li>
+                                <span>
+                                    Only on Netflix
+                                </span>
+
+                            </li>
+                        </ul>
+
+                        <!-- <div class="nav-right-btn language-btn footer-language-btn">
+                            English
+                            <span> <i class="fa-solid fa-caret-down"></i></span>
+
+                        </div>
+                        <div class="hidden-language footer-hidden-language">
+                            <div class="english">
+                                English
+                            </div>
+                            <div class="hindi">
+                                हिन्दी
+                            </div>
+
+                        </div> -->
+                        <ul>
+                            <li class="netflix-india">Netflix India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+
+        const hiddenLanguage = document.querySelector('.hidden-language');
+        const languageBtn = document.querySelector('.language-btn');
+        const footerLanguageBtn = document.querySelector('.footer-language-btn');
+        const netflixIndia = document.querySelector('.netflix-india');
+        const footerHiddenLanguage = document.querySelector('.footer-hidden-language')
+
+        const englishLanguage = document.querySelector('.english');
+        const hindiLanguage = document.querySelector('.hindi');
+        const footerEnglishLanguage = document.querySelector('.footer-hidden-language .english');
+        const footerHindiLanguage = document.querySelector('.footer-hidden-language .hindi');
+        footerLanguageBtn.addEventListener('click', function (event) {
+            event.preventDefault();
+            if (footerHiddenLanguage.style.display === 'none' || footerHiddenLanguage.style.display === '') {
+                footerHiddenLanguage.style.display = 'block';
+                netflixIndia.style.display = 'none';
+            } else {
+                footerHiddenLanguage.style.display = 'none';
+                netflixIndia.style.display = 'block';
+            }
+        });
+        footerHindiLanguage.addEventListener('click', function (event) {
+            event.preventDefault();
+            footerHiddenLanguage.style.display = 'none';
+        });
+        footerEnglishLanguage.addEventListener('click', function (event) {
+            event.preventDefault();
+            footerHiddenLanguage.style.display = 'none';
+        });
+        footerHindiLanguage.addEventListener('mouseover', function (event) {
+            event.preventDefault();
+            footerEnglishLanguage.style.backgroundColor = 'transparent';
+        });
+
+        footerEnglishLanguage.addEventListener('mouseover', function (event) {
+            event.preventDefault();
+            footerEnglishLanguage.style.backgroundColor = '';
+        });
+
+        
+    });
+
+
+</script>
+
+</html>

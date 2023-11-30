@@ -1,0 +1,221 @@
+@media screen and (max-width: 1000px) {
+    .navigation {
+        width: 88%;
+    }
+
+
+    .home-page-signIn {
+
+        width: 45%;
+    }
+
+    .container1 {
+        height: 615px;
+    }
+
+    .container1-content {
+        height: 615px;
+    }
+
+
+    .container2-content {
+        display: grid;
+    }
+
+    .container2-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2-right-img {
+        width: 100%;
+    }
+
+    .order-1 {
+        order: 2;
+    }
+
+    .order-2 {
+        order: 1;
+    }
+
+    .questions {
+        width: 90%;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+
+    .tv-video {
+        width: 71%;
+    }
+
+    .tv-video {
+        top: 22%;
+        right: 15%;
+    }
+
+    .desktop-image {
+        margin: auto;
+    }
+
+    .desktop-video {
+
+        top: 13%;
+        right: 22%;
+        width: 57%;
+    }
+
+
+    .sign-in-frame {
+        width: 57%;
+    }
+
+    .home-page-signIn {
+
+        width: 70%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .container1-part2 {
+        margin: 63px auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer-tags ul li {
+        width: 50%;
+
+
+    }
+
+    .valid-email-warning {
+
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .sign-in {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .nav-left-logo {
+        width: 100px;
+    }
+
+    .language-btn {
+        font-size: 15px;
+        width: 78px;
+        height: 30px;
+    }
+
+    .sign-in-btn {
+
+        width: 74px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+
+    .h1 {
+
+        font-size: 2rem;
+    }
+
+    .container1-part2 {
+
+        width: 90%;
+        margin: 54px auto;
+    }
+
+    .p {
+
+        font-size: 19px;
+    }
+
+    .line {
+
+        font-size: 21px;
+    }
+
+    .container1 {
+
+        height: 64vh;
+    }
+
+    .container1-content {
+        height: 64vh;
+    }
+
+    .home-page-signIn-btn {
+
+        width: 49%;
+        font-size: 18px;
+        margin: 14px auto;
+        height: 38px;
+    }
+
+    .sign-in {
+        display: grid;
+    }
+
+    .home-page-signIn {
+
+        width: 70%;
+        margin: auto;
+    }
+
+    .hidden-language {
+        font-size: 15px;
+        width: 78px;
+    }
+
+    .sign-in-frame {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 310px) {
+    .navigation {
+        display: grid;
+    }
+
+
+    .container1-content {
+
+        height: 80vh;
+    }
+
+    .container1 {
+
+        height: 80vh;
+    }
+
+    .home-page-signIn {
+
+
+        width: 90%;
+    }
+
+
+}
